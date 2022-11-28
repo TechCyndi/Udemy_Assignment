@@ -1,11 +1,18 @@
+body {
+  /* font-family: sans-serif; */
+}
+
+
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
+
 .container-body {
   padding: 0 20px;
 }
+
 nav {
   display: flex;
   font-size: 14px;
@@ -20,12 +27,15 @@ nav {
   align-items: center;
   padding: 0 30px;
 }
+
 .flex {
   display: flex;
 }
+
 .logo_ptag img {
   margin-right: 15px;
 }
+
 .logo_ptag p {
   margin-top: 5px;
 }
@@ -87,11 +97,12 @@ nav {
 }
 
 section.hero {
-  background-image: url("./images/bg\ imgae.jpg");
+  background-image: url("./images/bg-bf.jpg");
   width: 98%;
   height: 70vh;
-  background-position: contain;
-  background-size: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0 9px;
 }
 
@@ -202,13 +213,11 @@ section.hero {
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  
 }
 
 .cards h5 span {
-margin-left: 5px;
+  margin-left: 5px;
 }
-
 
 .cards p {
   font-size: 11px;
@@ -247,9 +256,8 @@ margin-left: 5px;
   display: flex;
 }
 
-.cards-two .cards{
+.cards-two .cards {
   margin-right: 5px;
-
 }
 
 .student {
@@ -258,27 +266,24 @@ margin-left: 5px;
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.angela-yu {
+.student-are-viewing {
   margin-top: 30px;
 
   padding: 0px 20px;
 }
 
-.stars  {
- display: flex;
-
- 
- 
+.stars {
+  display: flex;
 }
-.stars li{
+.stars li {
   list-style-type: none;
 }
 
-.numbers{
+.numbers {
   padding-top: 10px;
 }
 
-.stars li:nth-child(3){
+.stars li:nth-child(3) {
   color: rgb(110, 108, 108);
   font-size: 14px;
   padding-top: 10px;
@@ -288,8 +293,6 @@ margin-left: 5px;
   width: 80px;
   height: 15px;
   padding-left: 10px;
-  
- 
 }
 .categories {
   margin-left: 10px;
@@ -314,7 +317,7 @@ margin-left: 5px;
   margin-top: 5px;
 }
 
-.animation-icons img {
+.animation-image img {
   width: 270px;
 }
 
